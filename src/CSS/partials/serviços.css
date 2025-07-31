@@ -9,15 +9,12 @@
   font-size: 40px;
   text-align: center;
   margin-bottom: 4rem;
-  color: #2d4d2a;
+  color: #2c2c2c;
   font-weight: 700;
-  border-bottom: 4px solid #acca8d;
+  border-bottom: 4px solid #366424;
   display: inline-block;
   padding-bottom: 0.5rem;
-}
-
-#serviços h1 span {
-  color: #5b9443;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .bloco-serviços {
@@ -75,6 +72,7 @@
   text-decoration: none;
   font-weight: 500;
   transition: background-color 0.3s ease;
+  text-align: center;
 }
 
 .bloco-serviços a:hover {
