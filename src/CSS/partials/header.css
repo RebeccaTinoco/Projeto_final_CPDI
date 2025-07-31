@@ -62,12 +62,12 @@ header{
   text-decoration: none;
 }
 
-/* Quando o menu estiver ativo */
+
 .mobile-links.ativo {
   display: flex;
 }
 
-/* Exibir hambúrguer em telas menores */
+
 @media (max-width: 768px) {
   .botao-hamburguer {
     display: flex;
