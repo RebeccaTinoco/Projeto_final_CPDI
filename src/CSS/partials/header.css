@@ -1,6 +1,6 @@
 header{
-    background-color: #abca8d;
-   
+    background-color: #b4d68f83;
+    position: relative;
 }
 
 .header-links img {
@@ -9,7 +9,8 @@ header{
 
 .header-links a {
     width: 140px;
-    border-bottom: 4px solid #366424;
+    color:aliceblue;
+    border-bottom: 4px solid #3d52349f;
     font-size: 30px;
     text-align: center;
 }
@@ -58,7 +59,7 @@ header{
 .mobile-links a {
   margin: 10px 0;
   font-size: 20px;
-  color: #2d4d2a;
+  color: aliceblue;
   text-decoration: none;
 }
 
