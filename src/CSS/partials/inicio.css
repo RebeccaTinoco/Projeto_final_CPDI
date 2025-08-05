@@ -47,3 +47,37 @@
   height: auto;
   cursor: pointer;
 }
+.sobre-conteudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.sobre-nos{
+  margin: 10px 120px 10px 120px;
+}
+.sobre-nos h2{
+  font-size: 40px;
+  color: #2d4d2a;
+  padding: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.sobre-texto{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background-color: #87da6641;
+  padding: 30px
+}
+.sobre-texto img{
+  width: 350px;
+}
+
+.sobre-texto p{
+  font-size: 20px;
+  color: #4b4b4b;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 20px
+}
