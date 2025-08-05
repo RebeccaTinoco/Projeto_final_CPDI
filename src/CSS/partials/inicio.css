@@ -1,6 +1,9 @@
 
 #inicio {
-  background-color: #f6fef4;
+  background-image: url("/src/image/fundo-inicio.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -210px;
   padding: 6rem 2rem;
   display: flex;
   flex-direction: column; 
@@ -21,11 +24,14 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
 }
 
+.inicio-conteudo{
+  padding-top: 210px;
+}
 
 #inicio h1 {
   font-size: 42px;
-  color: #2d4d2a;
-  border-bottom: 4px solid #366424;
+  color: aliceblue;
+  border-bottom: 4px solid #309427;
   display: inline-block;
   padding-bottom: 0.5rem;
   font-weight: 600;
@@ -34,9 +40,9 @@
 
 
 #inicio p {
-  font-size: 20px;
-  color: #4b4b4b;
-  line-height: 1.6;
+  font-size: 26px;
+  color: #cecece;
+  line-height: 10px;
   margin-bottom: 0.3rem; /* para dar espaçamento entre parágrafos */
 }
 
