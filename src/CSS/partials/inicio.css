@@ -54,35 +54,60 @@
 }
 .sobre-conteudo{
   display: flex;
-  flex-direction: column;
+  flex-direction: block;
   align-items: center;
   gap: 40px;
+  background-color: #87da6641;
+  padding: 80px;
 }
 .sobre-nos{
-  margin: 10px 120px 10px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 40px 60px 10px 60px;
+  
 }
 .sobre-nos h2{
-  font-size: 40px;
+  font-size: 60px;
   color: #2d4d2a;
-  padding: 40px;
+  padding: 0px 0px 20px 0px;
   font-weight: 500;
   text-align: center;
 }
-.sobre-texto{
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  background-color: #87da6641;
-  padding: 30px
-}
-.sobre-texto img{
-  width: 350px;
-}
 
+.sobre-conteudo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sobre-conteudo img{
+  width: 550px;
+}
+.sobre-texto h2{
+  text-align: left;
+}
 .sobre-texto p{
-  font-size: 20px;
+  font-size: 22px;
   color: #4b4b4b;
   line-height: 1.6;
   text-align: justify;
-  padding: 20px
+}
+
+.sobre-ods{
+  background-image: url('/src/image/moda\ circular\ verde\ teste.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5px -60px 10px -60px;
+  padding: 180px;
+  text-align: center;
+  font-size: 22px;
+  color: aliceblue;
+}
+.sobre-ods h2{
+  color: aliceblue;
 }
