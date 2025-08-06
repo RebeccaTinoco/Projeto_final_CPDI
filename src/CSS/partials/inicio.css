@@ -4,14 +4,12 @@
   background-size: cover;
   background-attachment: fixed;
   margin-top: -210px;
-  padding: 6rem 2rem;
+  padding: 16rem 2rem;
   display: flex;
   flex-direction: column; 
   justify-content: center; 
   align-items: center;     
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  color: #2c2c2c;
 }
 
 
@@ -29,13 +27,13 @@
 }
 
 #inicio h1 {
-  font-size: 42px;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 80px;
   color: aliceblue;
   border-bottom: 4px solid #309427;
   display: inline-block;
   padding-bottom: 0.5rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
 }
 
 
@@ -43,6 +41,7 @@
   font-size: 26px;
   color: #cecece;
   line-height: 10px;
+  padding-top: 50px;
   margin-bottom: 0.3rem; /* para dar espaçamento entre parágrafos */
 }
 
