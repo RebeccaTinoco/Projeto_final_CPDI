@@ -1,3 +1,7 @@
 @import url(./partials/global.css);
 @import url(./partials/header.css);
-@import url(./partials/main.css);
+@import url(./partials/footer.css);
+@import url(./partials/botao-fixo.css);
+@import url(./partials/contato.css);
+@import url(./partials/inicio.css);
+@import url(./partials/serviços.css);
