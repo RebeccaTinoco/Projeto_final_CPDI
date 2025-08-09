@@ -4,16 +4,23 @@ header{
 }
 
 .header-links img {
-    width: 160px;
+    width: 120px;
 }
 
 .header-links a {
     width: 140px;
     color:aliceblue;
     border-bottom: 4px solid #3d52349f;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 200;
     text-align: center;
+}
+
+.header-links a:hover {
+    width: 180px;
+    transition: 0.5s;
+    border-bottom: 4px solid #6bc249;
+    
 }
 
 .header-links {
