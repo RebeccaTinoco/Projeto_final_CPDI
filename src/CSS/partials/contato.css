@@ -76,4 +76,20 @@
     border-radius: 10px;
     border: 2px solid #2d4d2ab9;
     font-size: 16px;
+}@media (max-width: 600px) {
+  #contato h1 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  .form-linha1 input,
+  #mensagem {
+    width: 90%; 
+    max-width: 300px; 
+  }
+
+  .form-linha2 button {
+    width: 90%;
+    max-width: 200px;
+  }
 }

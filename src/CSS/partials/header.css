@@ -32,8 +32,6 @@ header{
 }
 
 
-/* menu-hamburguer*/
-
 .botao-hamburguer {
   display: none;
   flex-direction: column;
@@ -84,5 +82,52 @@ header{
 
   .header-links {
     display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .header-links {
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .header-links a {
+    font-size: 22px;
+    width: 110px;
+  }
+
+  .header-links a:hover {
+    width: 140px;
+  }
+
+  .header-links img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .botao-hamburguer {
+    display: flex;
+  }
+
+  .header-links {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-links {
+    right: 10px;
+    top: 70px;
+    padding: 0.5rem;
+  }
+
+  .mobile-links a {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+
+  .botao-hamburguer {
+    top: 20px;
+    right: 10px;
   }
 }

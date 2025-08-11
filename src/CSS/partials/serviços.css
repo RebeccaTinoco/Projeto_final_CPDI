@@ -110,3 +110,52 @@
 .next {
   right: 10px;
 }
+@media (max-width: 1024px) {
+  #servicos-titulo {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  .carousel-item img {
+    max-height: 300px;
+  }
+  
+  .servicos-texto {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 15px;
+  }
+  
+  .carousel-btn {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  #servicos-titulo {
+    font-size: 26px;
+  }
+  
+  .carousel-item img {
+    max-height: 200px;
+  }
+  
+  .servicos-texto {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .carousel-btn {
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    padding: 5px 8px;
+  }
+}

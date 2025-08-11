@@ -2,8 +2,8 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  font-size: 60px; /* tamanho do ícone */
-  color: #2d4d2a;   /* mesma cor usada nos links do header */
+  font-size: 60px; 
+  color: #2d4d2a;    
   z-index: 1000;
   cursor: pointer;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -16,9 +16,25 @@
 }
 
 #botao-fixo i {
-  color: #366424; /* verde escuro */
+  color: #366424; 
 }
 
 #botao-fixo {
-  display: none; /* começa escondido */
+  display: none; 
+}
+
+
+@media (min-width: 768px) {
+  #botao-fixo {
+    display: block;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #botao-fixo {
+    font-size: 40px; 
+    bottom: 15px;
+    right: 15px;
+  }
 }
