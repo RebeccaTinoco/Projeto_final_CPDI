@@ -1,4 +1,4 @@
-# ReVeste — Projeto Final | Programando Meu Futuro - CPDI
+# ReVeste — Projeto Final | CPDI - Programando Meu Futuro
 
 Este repositório contém o projeto final desenvolvido para o curso Programando Meu Futuro, uma landing page responsiva para a marca fictícia ReVeste, focada em moda sustentável e economia circular. O objetivo foi aplicar, em um projeto completo, os conhecimentos adquiridos em HTML, CSS e JavaScript, criando uma página moderna, acessível e alinhada a causas socioambientais.
 
